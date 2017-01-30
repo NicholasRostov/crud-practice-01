@@ -1,0 +1,9 @@
+<h1>All Moisturizers</h1>
+<% @moist.each do |x| %>
+<p>Name:</p>
+<p><%= x.name %></p>
+<p>Instructions:</p>
+<p><%= x.instructions %></p>
+<p>HPF Level:</p>
+<p><%= x.hpf %></p>
+<% end %>

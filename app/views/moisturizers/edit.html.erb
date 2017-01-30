@@ -1,0 +1,20 @@
+<h1>Edit Moisturizer:</h1>
+<%= form_tag "/moist/#{moisturizer.id}", method: :patch do %>
+
+  <div>
+    Name:
+    <input type="text" name="name"  value="<%= moisturizer.name %>">
+  </div>
+
+  <div>
+    Instructions:
+    <input type="text" name="instructions"  value="<%= moisturizer.instructions %>">
+  </div>
+
+  <div>
+    Hpf:
+    <input type="text" name="hpf"  value="<%= moisturizer.hpf %>">
+  </div>
+
+  <input type="submit" name="Tickle me">
+  <% end %>

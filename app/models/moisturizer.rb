@@ -1,0 +1,2 @@
+class Moisturizer < ApplicationRecord
+end
